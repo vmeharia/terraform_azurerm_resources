@@ -1,0 +1,45 @@
+variable "agent_count" {}
+variable "resource_group_name" {}
+variable "location" {}
+variable "virtual_network_name" {}
+variable "subnet_names" {
+  type = list(any)
+}
+variable "subnet_prefix" {
+  type = list(any)
+}
+variable "dns_names" {
+  type = list(any)
+}
+#variable "public_ip_name" {}
+variable "nsg_name" {}
+variable "interface_name" {}
+variable "vm_size" {}
+variable "cluster_name" {}
+variable "identity_name" {}
+variable "container_registry_name" {}
+variable "virtual_machine_name" {}
+variable "template_name" {}
+variable "acr_pe_name" {}
+variable "acr_dns_zone_name" {}
+variable "acr_pe_connection_name" {}
+variable "ampls_pe_name" {}
+variable "ampls_dns_zone_name" {}
+variable "ampls_pe_connection_name" {}
+variable "username" {}
+variable "password" {}
+variable "vnet_prefix" {}
+variable "service_ip" {}
+variable "docker_cidr" {}
+variable "service_cidr" {}
+variable "dns_vnet_link_name" {}
+variable "storage_name" {}
+variable "data_disk_name" {}
+variable "node_resource_group" {}
+variable "dns_prefix_name" {}
+variable "admin_username" {}
+variable "ssh_key" {}
+variable "lb_name" {}
+variable "lb_frontend" {}
+variable "lb_bap" {}
+variable "lb_nat_rule" {}
